@@ -1,0 +1,186 @@
+<head>
+
+	  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	  <link rel="stylesheet" href="http://interactive.sun-sentinel.com/developers/leaflet/l.geosearch.css"/>
+	  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+	  <script src="http://interactive.sun-sentinel.com/developers/leaflet/l.control.geosearch.js"></script>
+	  <script src="http://interactive.sun-sentinel.com/developers/leaflet/l.geosearch.provider.google.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.2/mapbox-gl.css" rel='stylesheet' />
+	  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.2/mapbox-gl.js"></script>
+<script src="js/floridacounty.js"></script> <!--add your own js/json file-->
+</head>
+
+<style>
+.bold {font-weight:700;}
+#map{width:100%;height:800px;} /*keep width 100%*/
+.info {padding: 6px 8px;font: 14px/16px Arial, Helvetica, sans-serif;background: white;background: rgba(255,255,255,0.8);box-shadow: 0 0 15px rgba(0,0,0,0.2);border-radius: 5px;}
+.info h4 {margin: 0 0 5px;color: #777;}
+.legend {line-height: 18px;color: #555;}
+.legend i {width: 18px;height: 18px;float: left; margin-right: 8px; opacity: 0.7;}
+
+/*-------placing map controls------------*/
+.info.leaflet-control{margin-top:150px;}
+</style>
+
+<div id="map"></div>
+<script src="http://interactive.sun-sentinel.com/senior-food-deserts/js/leaflet-mapbox-gl.js"></script>
+
+	<script type="text/javascript">
+	if (!mapboxgl.supported()) {
+      var map=L.map('map', { zoomControl: true }).setView([27.9, -83.2], 7);
+
+  L.tileLayer('http://{s}.{base}.maps.api.here.com/maptile/2.1/' +
+  'maptile/{mapID}/{variant}/{z}/{x}/{y}/256/png8?' +
+  'app_id={app_id}&app_code={app_code}',  {
+
+  attribution:
+  'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
+  subdomains: '1234',
+  mapID: 'newest',
+  'app_id': '3EqISN3usn9ZPjG1Ewcl',
+  'app_code': '1fvzZx4VqUt3I98HFafEMw',
+  base: 'base',
+  variant: 'normal.day.transit',
+  minZoom: 5,
+  maxZoom: 16
+  }).addTo(map);
+
+} else{
+	var map = L.map('map').setView([28.079158, -83.187735], 7);
+					map.options.minZoom = 5;
+					map.options.maxZoom = 16;
+
+	var gl = L.mapboxGL({
+			accessToken: 'pk.eyJ1Ijoic3NkZXZlbG9wZXJzIiwiYSI6ImNpaHc2OXN3dDAyaHd1MW0xaDB2MTVuc3AifQ.1cG9uUa0Wcmm0bEbR2Jjiw',
+			style: 'mapbox://styles/ssdevelopers/cij4rhw8b00169hkl1iw97taw'
+	}).addTo(map);
+}
+
+function getURLParameter(name) {
+				return decodeURI(
+						(RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,])[1]
+				);
+		}
+
+var regionParameter = getURLParameter('region');
+var region = (regionParameter === 'undefined') ? '' : regionParameter;
+
+new L.Control.GeoSearch({
+						provider: new L.GeoSearch.Provider.Google({
+							region: region
+						})
+				}).addTo(map);
+
+/* ---------info box----have as many var info[X] as you want to work with different dataset----------------------------*/
+        var info = L.control({position:'topleft'});     //control where to place the info box
+        info.onAdd = function (map) {
+        			this._div = L.DomUtil.create('div', 'info');
+        			this.update();
+        			return this._div;
+        		};
+        		info.update = function (props) {            //change your information here
+        			this._div.innerHTML = '<h4>Bear hunt licenses</h4>' +  (props ?
+        				'<b>' + props.name + '</b><br />'  + '<b>Number of licenses issued: </b>' + props.customers
+          : 'Hover over a county');
+        		};
+
+        info.addTo(map);
+
+
+/*--define color range for legend---have as many as function getColor[X] as you want to work with different dataset--------*/
+function getColor(d) {
+    return d > 100 ? '#800026' :
+           d > 20  ? '#FC4E2A' :
+           d > 10  ? '#FEB24C' :
+                      '#FFEDA0';
+}
+
+
+/*--set style for map---have as many as function style[X] as you want to work with different dataset--------*/
+function style(feature) {
+    return {
+       fillColor:getColor(feature.properties.customers),//change properties variable
+        weight: 0.5,
+        opacity: 1,
+        color: '#66A780',
+        dashArray: '0',
+        fillOpacity: 0.4
+    };
+}
+
+/*-----apply data to map----------------*/
+var customerNumber =  L.geoJson(bearCustomers, {style: style}).addTo(map);
+
+/*--set highlight style for map---have as many as function Feature[X] as you want to work with different dataset--------*/
+function highlightFeature(e) {
+  var layer = e.target;
+  layer.setStyle({
+    weight:2,
+    color:'#338A56',
+    dashArray:'',
+    fillOpacity:0.2
+  });
+
+  if (!L.Browser.ie && !L.Browser.opera) {
+        layer.bringToFront();
+    }
+    info.update(layer.feature.properties);
+}
+
+var geojson;
+
+function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+    info.update();
+}
+
+function zoomToFeature(e) {
+			map.fitBounds(e.target.getBounds());
+		}
+
+function onEachFeature(feature, layer) {
+			layer.on({
+				mouseover: highlightFeature,
+				mouseout: resetHighlight,
+				click: zoomToFeature
+			});
+		}
+
+	geojson = L.geoJson(bearCustomers, {
+			style: style,
+			onEachFeature: onEachFeature
+		}).addTo(map);
+
+
+/*------legend with customized labels----default setting from leaflet is confusing-----------------*/
+var legend = L.control({position: 'bottomright'});
+
+          legend.onAdd = function (map) {
+           var div = L.DomUtil.create('div', 'info legend'),
+           grades = [0, 10, 20, 100],
+           key_labels = ['0-10', '11-20', '21-100', '100+'],
+           labels = [],
+           from, to;
+
+           for (var i=0; i < grades.length; i++) {
+             from = grades[i];
+             to = grades[i + 1];
+
+             labels.push(
+               '<i style="background:' + getColor(from + 1) + '"></i> ' +
+               key_labels[i]);
+           }
+
+           div.innerHTML = labels.join('<br>');
+           return div;
+
+          };
+
+          legend.addTo(map);
+
+
+map.attributionControl.addAttribution('2014 estimated population data @Bureau of Economic and Business Research, University of Florida');
+</script>
+
+<p>Source:</p>

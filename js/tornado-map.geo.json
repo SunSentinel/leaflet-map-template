@@ -1,0 +1,6389 @@
+var tornadoFzero = {
+   "type": "FeatureCollection",
+   "features": [
+     {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.8,27.48 ]
+  },
+  "properties": {
+  "name":"Hardee",
+  "date":"10/23/2005",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.5
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.98,27.9 ]
+  },
+  "properties": {
+  "name":"Polk",
+  "date":"10/23/2005",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.72,28.33 ]
+  },
+  "properties": {
+  "name":"Brevard",
+  "date":"10/23/2005",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$50,000",
+  "length":3
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.45,27.4 ]
+  },
+  "properties": {
+  "name":"Highlands",
+  "date":"10/24/2005",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.58,28.03 ]
+  },
+  "properties": {
+  "name":"Brevard",
+  "date":"10/24/2005",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.23,30.3 ]
+  },
+  "properties": {
+  "name":"Leon",
+  "date":"12/5/2005",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.68,30.23 ]
+  },
+  "properties": {
+  "name":"Bay",
+  "date":"12/24/2005",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$650,000",
+  "length":2.7
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.98,30.02 ]
+  },
+  "properties": {
+  "name":"Liberty",
+  "date":"1/2/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -86.7,30.8 ]
+  },
+  "properties": {
+  "name":"Okaloosa",
+  "date":"1/13/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":13,
+  "property_damage":"$2,000,000",
+  "length":4
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.28,26.18 ]
+  },
+  "properties": {
+  "name":"Broward",
+  "date":"3/23/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.37,30.22 ]
+  },
+  "properties": {
+  "name":"Wakulla",
+  "date":"4/22/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":4
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -814.08,27.95 ]
+  },
+  "properties": {
+  "name":"Polk",
+  "date":"6/12/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.5
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.78,27.58 ]
+  },
+  "properties": {
+  "name":"Hardee",
+  "date":"6/12/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.5
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.87,27.2 ]
+  },
+  "properties": {
+  "name":"De Soto",
+  "date":"6/12/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.5
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.87,27.27 ]
+  },
+  "properties": {
+  "name":"De Soto",
+  "date":"6/12/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":4
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.5,28.67 ]
+  },
+  "properties": {
+  "name":"Orange",
+  "date":"6/13/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.42,30.28 ]
+  },
+  "properties": {
+  "name":"Duval",
+  "date":"6/13/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -812.1,30.42 ]
+  },
+  "properties": {
+  "name":"Duval",
+  "date":"6/13/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":200
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -804.05,26.63 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"6/20/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.05,26.97 ]
+  },
+  "properties": {
+  "name":"Charlotte",
+  "date":"6/21/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$30,000",
+  "length":0.5
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82,27.98 ]
+  },
+  "properties": {
+  "name":"Polk",
+  "date":"6/24/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.3
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -812.1,28.98 ]
+  },
+  "properties": {
+  "name":"Lake",
+  "date":"7/6/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$70,000",
+  "length":2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.08,27.28 ]
+  },
+  "properties": {
+  "name":"Manatee",
+  "date":"7/17/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.3
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.45,28.2 ]
+  },
+  "properties": {
+  "name":"Pasco",
+  "date":"7/20/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.3
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.45,27.1 ]
+  },
+  "properties": {
+  "name":"Sarasota",
+  "date":"8/11/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.3
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -804.05,27.35 ]
+  },
+  "properties": {
+  "name":"Okeechobee",
+  "date":"8/21/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.5
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.1,26.32 ]
+  },
+  "properties": {
+  "name":"Broward",
+  "date":"8/21/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.25,27.2 ]
+  },
+  "properties": {
+  "name":"Martin",
+  "date":"8/24/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$20,000",
+  "length":0.3
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1,29.9 ]
+  },
+  "properties": {
+  "name":"Bradford",
+  "date":"8/25/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -805.07,28.12 ]
+  },
+  "properties": {
+  "name":"Osceola",
+  "date":"8/30/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.08,28.12 ]
+  },
+  "properties": {
+  "name":"Osceola",
+  "date":"8/30/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.45,30.4 ]
+  },
+  "properties": {
+  "name":"Duval",
+  "date":"9/7/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.52,27.72 ]
+  },
+  "properties": {
+  "name":"Polk",
+  "date":"9/15/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.7
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.5,28.67 ]
+  },
+  "properties": {
+  "name":"Orange",
+  "date":"10/7/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$70,000",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.5364,30.2834 ]
+  },
+  "properties": {
+  "name":"Bay",
+  "date":"10/22/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$75,000",
+  "length":0.25
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.93,30.27 ]
+  },
+  "properties": {
+  "name":"Bay",
+  "date":"10/27/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":0.75
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.37,28.55 ]
+  },
+  "properties": {
+  "name":"Orange",
+  "date":"11/7/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$40,000",
+  "length":0.8
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.12,25.95 ]
+  },
+  "properties": {
+  "name":"Miami-Dade",
+  "date":"11/14/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.02
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.87,28.8 ]
+  },
+  "properties": {
+  "name":"Lake",
+  "date":"12/25/2006",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$250,000",
+  "length":0.3
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.53,27.73 ]
+  },
+  "properties": {
+  "name":"Polk",
+  "date":"2/2/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$2,000",
+  "length":0.5
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.22,26.2 ]
+  },
+  "properties": {
+  "name":"Broward",
+  "date":"2/28/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":2.17
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -86.94,30.77 ]
+  },
+  "properties": {
+  "name":"Santa Rosa",
+  "date":"3/1/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$8,000",
+  "length":0.5
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -83.8364,30.53 ]
+  },
+  "properties": {
+  "name":"Jfferson",
+  "date":"3/2/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":2.28
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.82,30.29 ]
+  },
+  "properties": {
+  "name":"Suwannee",
+  "date":"3/2/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.8018,30.5322 ]
+  },
+  "properties": {
+  "name":"Nassau",
+  "date":"3/2/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$30,000",
+  "length":1.19
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.21,29.47 ]
+  },
+  "properties": {
+  "name":"Flagler",
+  "date":"3/16/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.08,26.52 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"4/10/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":0.62
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.6503,28.0089 ]
+  },
+  "properties": {
+  "name":"Polk",
+  "date":"4/15/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$250,000",
+  "length":2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.55,26.11 ]
+  },
+  "properties": {
+  "name":"Broward",
+  "date":"5/6/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.86
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.4212,27.33 ]
+  },
+  "properties": {
+  "name":"Sarasota",
+  "date":"5/17/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.3
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.5206,24.6611 ]
+  },
+  "properties": {
+  "name":"Monroe",
+  "date":"6/1/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$20,000",
+  "length":0.55
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.45,26.72 ]
+  },
+  "properties": {
+  "name":"Hendry",
+  "date":"6/7/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$8,000",
+  "length":1.24
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.2318,29.7102 ]
+  },
+  "properties": {
+  "name":"St. Johns",
+  "date":"6/12/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.67,30.22 ]
+  },
+  "properties": {
+  "name":"Duval",
+  "date":"6/13/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.18
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.2558,25.6782 ]
+  },
+  "properties": {
+  "name":"Miami-Dade",
+  "date":"6/15/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.05
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.12,25.8 ]
+  },
+  "properties": {
+  "name":"Miami-Dade",
+  "date":"6/18/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0127,29.1026 ]
+  },
+  "properties": {
+  "name":"Marion",
+  "date":"6/18/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.0874,24.7028 ]
+  },
+  "properties": {
+  "name":"Monroe",
+  "date":"6/24/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$2,500",
+  "length":0.57
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.25,26.71 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"7/2/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.38
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.9857,29.1434 ]
+  },
+  "properties": {
+  "name":"Volusia",
+  "date":"7/7/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$30,000",
+  "length":0.12
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.4242,30.38 ]
+  },
+  "properties": {
+  "name":"Duval",
+  "date":"7/14/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.75
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0384,28.6102 ]
+  },
+  "properties": {
+  "name":"Sumter",
+  "date":"7/16/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.9471,26.5796 ]
+  },
+  "properties": {
+  "name":"Lee",
+  "date":"7/21/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.55,25.68 ]
+  },
+  "properties": {
+  "name":"Miami-Dade",
+  "date":"7/21/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.5
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.13,29.47 ]
+  },
+  "properties": {
+  "name":"Flagler",
+  "date":"7/22/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.6
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.3909,27.27 ]
+  },
+  "properties": {
+  "name":"St. Lucie",
+  "date":"7/23/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -83.0512,29.129 ]
+  },
+  "properties": {
+  "name":"Levy",
+  "date":"7/24/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.9094,27 ]
+  },
+  "properties": {
+  "name":"Sarasota",
+  "date":"7/24/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$1,000",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.6952,28.6285 ]
+  },
+  "properties": {
+  "name":"Lake",
+  "date":"7/24/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.03
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.45,28.4388 ]
+  },
+  "properties": {
+  "name":"Hernando",
+  "date":"7/25/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0541,27.0109 ]
+  },
+  "properties": {
+  "name":"Charlotte",
+  "date":"8/11/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$3,000",
+  "length":0.3
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.95,26.45 ]
+  },
+  "properties": {
+  "name":"Lee",
+  "date":"9/16/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$110,000",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.3983,26 ]
+  },
+  "properties": {
+  "name":"Collier",
+  "date":"9/22/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.5
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.8208,26.2388 ]
+  },
+  "properties": {
+  "name":"Collier",
+  "date":"12/21/2007",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$15,000",
+  "length":0.44
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.608,28.347 ]
+  },
+  "properties": {
+  "name":"Brevard",
+  "date":"2/12/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$200,000",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.39,25.8481 ]
+  },
+  "properties": {
+  "name":"Collier",
+  "date":"2/12/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$444,590",
+  "length":1.32
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.1894,26.0884 ]
+  },
+  "properties": {
+  "name":"Broward",
+  "date":"2/12/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$350,000",
+  "length":3.15
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.0857,24.7028 ]
+  },
+  "properties": {
+  "name":"Monroe",
+  "date":"2/13/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$2,000",
+  "length":0.62
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.17,29.79 ]
+  },
+  "properties": {
+  "name":"Alachua",
+  "date":"2/26/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.2,30.24 ]
+  },
+  "properties": {
+  "name":"Baker",
+  "date":"2/26/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.25
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.8258,30.1787 ]
+  },
+  "properties": {
+  "name":"Suwannee",
+  "date":"3/7/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.2323,30.4216 ]
+  },
+  "properties": {
+  "name":"Baker",
+  "date":"3/7/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":1,
+  "property_damage":"$0",
+  "length":1.16
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.01,30.59 ]
+  },
+  "properties": {
+  "name":"Nassau",
+  "date":"3/7/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -83.6203,29.8493 ]
+  },
+  "properties": {
+  "name":"Taylor",
+  "date":"4/28/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$75,000",
+  "length":0.32
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -83.0311,30.3269 ]
+  },
+  "properties": {
+  "name":"Suwannee",
+  "date":"4/28/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.119,25.8476 ]
+  },
+  "properties": {
+  "name":"Miami-Dade",
+  "date":"6/13/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.0576,26.464 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"6/13/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.05
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.9827,26.5801 ]
+  },
+  "properties": {
+  "name":"Lee",
+  "date":"6/13/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$110,000",
+  "length":0.29
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.3254,27.44 ]
+  },
+  "properties": {
+  "name":"Highlands",
+  "date":"7/1/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$50,000",
+  "length":0.4
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.776,28.8311 ]
+  },
+  "properties": {
+  "name":"Lake",
+  "date":"8/13/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$12,000",
+  "length":0.05
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.776,28.8311 ]
+  },
+  "properties": {
+  "name":"Lake",
+  "date":"8/13/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$12,000",
+  "length":0.05
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.3716,24.7059 ]
+  },
+  "properties": {
+  "name":"Monroe",
+  "date":"8/18/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$1,000",
+  "length":0.24
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.4742,24.6598 ]
+  },
+  "properties": {
+  "name":"Monroe",
+  "date":"8/18/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$1,000",
+  "length":0.07
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.1278,25.9837 ]
+  },
+  "properties": {
+  "name":"Broward",
+  "date":"8/18/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":0.25
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.2187,27.1517 ]
+  },
+  "properties": {
+  "name":"Martin",
+  "date":"8/19/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$20,000",
+  "length":0.02
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.3665,27.3935 ]
+  },
+  "properties": {
+  "name":"St. Lucie",
+  "date":"8/19/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":0.08
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.43,29.88 ]
+  },
+  "properties": {
+  "name":"St. Johns",
+  "date":"8/22/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.59
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.4362,30.2584 ]
+  },
+  "properties": {
+  "name":"Duval",
+  "date":"8/22/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.17
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.6,29.85 ]
+  },
+  "properties": {
+  "name":"Clay",
+  "date":"8/22/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.7106,30.0409 ]
+  },
+  "properties": {
+  "name":"Clay",
+  "date":"8/22/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.32
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.4161,27.9425 ]
+  },
+  "properties": {
+  "name":"Polk",
+  "date":"8/22/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$30,000",
+  "length":0.72
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.66,29.66 ]
+  },
+  "properties": {
+  "name":"Putnam",
+  "date":"8/23/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":3.74
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -83.9292,30.4148 ]
+  },
+  "properties": {
+  "name":"Jfferson",
+  "date":"8/23/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.3593,30.8812 ]
+  },
+  "properties": {
+  "name":"Jackson",
+  "date":"8/25/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.8202,25.7789 ]
+  },
+  "properties": {
+  "name":"Miami-Dade",
+  "date":"8/31/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.88
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -87.15,30.35 ]
+  },
+  "properties": {
+  "name":"Santa Rosa",
+  "date":"9/1/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$12,000",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -86.58,30.43 ]
+  },
+  "properties": {
+  "name":"Okaloosa",
+  "date":"9/1/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -86.53,30.48 ]
+  },
+  "properties": {
+  "name":"Okaloosa",
+  "date":"9/1/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$20,000",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -86.87,30.4 ]
+  },
+  "properties": {
+  "name":"Santa Rosa",
+  "date":"9/1/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -87.32,30.35 ]
+  },
+  "properties": {
+  "name":"Escambia",
+  "date":"9/1/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -87.32,30.35 ]
+  },
+  "properties": {
+  "name":"Escambia",
+  "date":"9/1/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.3766,25.1675 ]
+  },
+  "properties": {
+  "name":"Monroe",
+  "date":"9/9/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$25,000",
+  "length":0.38
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.5923,24.6179 ]
+  },
+  "properties": {
+  "name":"Monroe",
+  "date":"9/17/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.02
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.7945,24.5697 ]
+  },
+  "properties": {
+  "name":"Monroe",
+  "date":"9/29/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.28
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.7351,30.1445 ]
+  },
+  "properties": {
+  "name":"Bay",
+  "date":"10/8/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$500,000",
+  "length":3.46
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.5884,28.333 ]
+  },
+  "properties": {
+  "name":"Osceola",
+  "date":"11/30/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.09
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.6393,27.9997 ]
+  },
+  "properties": {
+  "name":"Brevard",
+  "date":"11/30/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$576,000",
+  "length":0.17
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.667,30.1825 ]
+  },
+  "properties": {
+  "name":"Duval",
+  "date":"12/11/2008",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.39
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -86.338,30.732 ]
+  },
+  "properties": {
+  "name":"Walton",
+  "date":"3/27/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.16
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.3916,30.651 ]
+  },
+  "properties": {
+  "name":"Jackson",
+  "date":"3/27/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$75,000",
+  "length":0.24
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.11,26.835 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"3/31/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$75,000",
+  "length":0.7
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.0672,26.7274 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"3/31/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$25,000",
+  "length":0.27
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.06,28.69 ]
+  },
+  "properties": {
+  "name":"Seminole",
+  "date":"4/1/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.8973,30.6316 ]
+  },
+  "properties": {
+  "name":"Gadsden",
+  "date":"4/2/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.25
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.2519,29.7618 ]
+  },
+  "properties": {
+  "name":"St. Johns",
+  "date":"4/13/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.7099,28.1724 ]
+  },
+  "properties": {
+  "name":"Pinellas",
+  "date":"4/14/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$35,000",
+  "length":0.13
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.2924,28.2339 ]
+  },
+  "properties": {
+  "name":"Pasco",
+  "date":"4/14/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$30,000",
+  "length":0.24
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.7669,28.4651 ]
+  },
+  "properties": {
+  "name":"Brevard",
+  "date":"4/14/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.9069,28.0689 ]
+  },
+  "properties": {
+  "name":"Polk",
+  "date":"5/12/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$15,000",
+  "length":0.04
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.36,28.0169 ]
+  },
+  "properties": {
+  "name":"Hillsborough",
+  "date":"5/13/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$75,000",
+  "length":1.39
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.3084,28.6724 ]
+  },
+  "properties": {
+  "name":"Seminole",
+  "date":"5/19/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$100,000",
+  "length":0.08
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.7803,27.9689 ]
+  },
+  "properties": {
+  "name":"Pinellas",
+  "date":"5/22/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.3
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.2142,30.4374 ]
+  },
+  "properties": {
+  "name":"Leon",
+  "date":"6/4/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$1,300,000",
+  "length":0.08
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.1295,26.9725 ]
+  },
+  "properties": {
+  "name":"Glades",
+  "date":"6/10/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$50,000",
+  "length":0.51
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.2969,28.7874 ]
+  },
+  "properties": {
+  "name":"Citrus",
+  "date":"6/23/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$250,000",
+  "length":0.47
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.7545,29.7203 ]
+  },
+  "properties": {
+  "name":"Franklin",
+  "date":"6/23/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":0.57
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.66,30.21 ]
+  },
+  "properties": {
+  "name":"Duval",
+  "date":"6/26/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":7.14
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.512,28.0616 ]
+  },
+  "properties": {
+  "name":"Hillsborough",
+  "date":"6/30/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$20,000",
+  "length":0.05
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.3306,27.8908 ]
+  },
+  "properties": {
+  "name":"Hillsborough",
+  "date":"7/1/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":2.92
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.5895,27.6615 ]
+  },
+  "properties": {
+  "name":"Indian River",
+  "date":"7/12/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.44
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.4171,28.4239 ]
+  },
+  "properties": {
+  "name":"Orange",
+  "date":"7/15/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$25,000",
+  "length":0.14
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.0376,29.2883 ]
+  },
+  "properties": {
+  "name":"Volusia",
+  "date":"7/24/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$1,000",
+  "length":0.64
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.0265,29.1463 ]
+  },
+  "properties": {
+  "name":"Volusia",
+  "date":"7/24/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":1,
+  "property_damage":"$2,500,000",
+  "length":0.72
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.6046,27.9733 ]
+  },
+  "properties": {
+  "name":"Hillsborough",
+  "date":"7/27/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.19
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.7773,28.1001 ]
+  },
+  "properties": {
+  "name":"Polk",
+  "date":"8/12/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$35,000",
+  "length":0.14
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.9831,26.6847 ]
+  },
+  "properties": {
+  "name":"Lee",
+  "date":"8/16/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$103,000",
+  "length":0.36
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -86.5643,30.7193 ]
+  },
+  "properties": {
+  "name":"Okaloosa",
+  "date":"12/2/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.3207,30.5399 ]
+  },
+  "properties": {
+  "name":"Leon",
+  "date":"12/9/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$50,000",
+  "length":0.64
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.4026,25.4585 ]
+  },
+  "properties": {
+  "name":"Miami-Dade",
+  "date":"12/18/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.13
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.7491,24.5534 ]
+  },
+  "properties": {
+  "name":"Monroe",
+  "date":"12/18/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":1.19
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.9189,27.5441 ]
+  },
+  "properties": {
+  "name":"Hardee",
+  "date":"12/18/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$75,000",
+  "length":0.21
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.3995,25.1438 ]
+  },
+  "properties": {
+  "name":"Monroe",
+  "date":"12/18/2009",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":0.13
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0404,30.5363 ]
+  },
+  "properties": {
+  "name":"Nassau",
+  "date":"1/21/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.15
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.83,30.56 ]
+  },
+  "properties": {
+  "name":"Nassau",
+  "date":"1/21/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.14
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0459,30.0125 ]
+  },
+  "properties": {
+  "name":"Clay",
+  "date":"1/21/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.26
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.7246,28.2537 ]
+  },
+  "properties": {
+  "name":"Brevard",
+  "date":"1/22/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":1,
+  "property_damage":"$1,000,000",
+  "length":7.34
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.7246,28.2537 ]
+  },
+  "properties": {
+  "name":"Brevard",
+  "date":"1/22/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":1,
+  "property_damage":"$1,000,000",
+  "length":7.34
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.5822,28.7309 ]
+  },
+  "properties": {
+  "name":"Citrus",
+  "date":"3/11/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.5
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.78,28.08 ]
+  },
+  "properties": {
+  "name":"Polk",
+  "date":"3/11/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$2,000",
+  "length":0.36
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.7135,28.119 ]
+  },
+  "properties": {
+  "name":"Brevard",
+  "date":"3/28/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":2.31
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.1662,26.1716 ]
+  },
+  "properties": {
+  "name":"Broward",
+  "date":"3/29/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$80,000",
+  "length":2.43
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.6022,30.5131 ]
+  },
+  "properties": {
+  "name":"Gadsden",
+  "date":"4/8/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.6596,26.6861 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"4/12/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.4019,25.1416 ]
+  },
+  "properties": {
+  "name":"Monroe",
+  "date":"4/26/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$15,000",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.5623,27.65 ]
+  },
+  "properties": {
+  "name":"Indian River",
+  "date":"6/18/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.02
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.5563,29.7495 ]
+  },
+  "properties": {
+  "name":"Putnam",
+  "date":"6/20/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":3.43
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.8838,29.0009 ]
+  },
+  "properties": {
+  "name":"Volusia",
+  "date":"8/7/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$58,000",
+  "length":0.82
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.1537,26.332 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"8/7/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.82
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.891,28.971 ]
+  },
+  "properties": {
+  "name":"Volusia",
+  "date":"8/11/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":0.27
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.0045,29.0094 ]
+  },
+  "properties": {
+  "name":"Volusia",
+  "date":"8/11/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.05
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.4307,25.0898 ]
+  },
+  "properties": {
+  "name":"Monroe",
+  "date":"8/30/2010",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$500",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.865,28.49 ]
+  },
+  "properties": {
+  "name":"Orange",
+  "date":"1/17/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.05
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.032,28.873 ]
+  },
+  "properties": {
+  "name":"Sumter",
+  "date":"1/25/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.9
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1379,27.4602 ]
+  },
+  "properties": {
+  "name":"Manatee",
+  "date":"1/25/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.98
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.7,27.41 ]
+  },
+  "properties": {
+  "name":"Hardee",
+  "date":"1/25/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.86
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.89,27.46 ]
+  },
+  "properties": {
+  "name":"Hardee",
+  "date":"1/25/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.14
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.5996,26.7159 ]
+  },
+  "properties": {
+  "name":"Lee",
+  "date":"1/25/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$100,000",
+  "length":0.32
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.3698,27.4391 ]
+  },
+  "properties": {
+  "name":"Highlands",
+  "date":"1/25/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":0.93
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.1321,26.3459 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"1/25/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$20,000",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -87.3268,30.8693 ]
+  },
+  "properties": {
+  "name":"Escambia",
+  "date":"3/9/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.54
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -87.1148,30.6218 ]
+  },
+  "properties": {
+  "name":"Santa Rosa",
+  "date":"3/9/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.11
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.2048,25.7508 ]
+  },
+  "properties": {
+  "name":"Miami-Dade",
+  "date":"3/10/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$1,000",
+  "length":3.27
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.6325,28.0953 ]
+  },
+  "properties": {
+  "name":"Hillsborough",
+  "date":"3/31/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":4.29
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.508,28.14 ]
+  },
+  "properties": {
+  "name":"Hillsborough",
+  "date":"3/31/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$20,000",
+  "length":5.62
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.05,28.198 ]
+  },
+  "properties": {
+  "name":"Polk",
+  "date":"3/31/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":5.55
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.9827,27.9086 ]
+  },
+  "properties": {
+  "name":"Polk",
+  "date":"3/31/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":9.44
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.4201,27.3068 ]
+  },
+  "properties": {
+  "name":"St. Lucie",
+  "date":"4/26/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.05
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.1615,28.2088 ]
+  },
+  "properties": {
+  "name":"Pasco",
+  "date":"7/7/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$20,000",
+  "length":0.22
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.71,28.87 ]
+  },
+  "properties": {
+  "name":"Lake",
+  "date":"8/5/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$25,000",
+  "length":0.37
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -86.558,30.7229 ]
+  },
+  "properties": {
+  "name":"Okaloosa",
+  "date":"9/4/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$25,000",
+  "length":0.78
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.6946,30.4209 ]
+  },
+  "properties": {
+  "name":"Bay",
+  "date":"9/4/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.05
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.03,30.79 ]
+  },
+  "properties": {
+  "name":"Jackson",
+  "date":"9/5/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$1,000",
+  "length":0.35
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.2689,28.569 ]
+  },
+  "properties": {
+  "name":"Orange",
+  "date":"9/19/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.086,26.9813 ]
+  },
+  "properties": {
+  "name":"Glades",
+  "date":"10/18/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$50,000",
+  "length":1.02
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.9425,27.1045 ]
+  },
+  "properties": {
+  "name":"Glades",
+  "date":"10/18/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.94
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.482,27.0512 ]
+  },
+  "properties": {
+  "name":"Martin",
+  "date":"10/18/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$207,000",
+  "length":0.26
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.3659,27.5606 ]
+  },
+  "properties": {
+  "name":"Indian River",
+  "date":"10/18/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$24,000",
+  "length":0.14
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.1599,27.105 ]
+  },
+  "properties": {
+  "name":"Martin",
+  "date":"10/29/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$200,000",
+  "length":0.28
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.1502,27.1087 ]
+  },
+  "properties": {
+  "name":"Martin",
+  "date":"10/29/2011",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.39
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.6159,30.4738 ]
+  },
+  "properties": {
+  "name":"Gadsden",
+  "date":"3/3/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.55
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.56,29.75 ]
+  },
+  "properties": {
+  "name":"Alachua",
+  "date":"3/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$8,000",
+  "length":4.63
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.7547,30.2967 ]
+  },
+  "properties": {
+  "name":"Bay",
+  "date":"3/30/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.17
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.8121,26.168 ]
+  },
+  "properties": {
+  "name":"Collier",
+  "date":"4/6/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":0.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.7454,29.7168 ]
+  },
+  "properties": {
+  "name":"Franklin",
+  "date":"4/21/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.443,27.334 ]
+  },
+  "properties": {
+  "name":"St. Lucie",
+  "date":"5/8/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.02
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -87.406,30.3535 ]
+  },
+  "properties": {
+  "name":"Escambia",
+  "date":"5/12/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$1,000",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.3072,27.287 ]
+  },
+  "properties": {
+  "name":"St. Lucie",
+  "date":"5/28/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$20,000",
+  "length":0.69
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.7569,29.0348 ]
+  },
+  "properties": {
+  "name":"Levy",
+  "date":"5/29/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":2.84
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.7899,27.2902 ]
+  },
+  "properties": {
+  "name":"Okeechobee",
+  "date":"6/1/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.9
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.747,26.11 ]
+  },
+  "properties": {
+  "name":"Collier",
+  "date":"6/23/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$35,000",
+  "length":1.7
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.789,26.274 ]
+  },
+  "properties": {
+  "name":"Collier",
+  "date":"6/23/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":1,
+  "property_damage":"$0",
+  "length":0.05
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.78,27.4 ]
+  },
+  "properties": {
+  "name":"Hardee",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$65,000",
+  "length":17.03
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.52,26.84 ]
+  },
+  "properties": {
+  "name":"Glades",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.641,25.762 ]
+  },
+  "properties": {
+  "name":"Collier",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":16.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.542,26.162 ]
+  },
+  "properties": {
+  "name":"Collier",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.36,27.04 ]
+  },
+  "properties": {
+  "name":"Highlands",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":1,
+  "injuries":0,
+  "property_damage":"$15,000",
+  "length":3.45
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.0645,26.634 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.55,26.37 ]
+  },
+  "properties": {
+  "name":"Collier",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.068,26.697 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$50,000",
+  "length":1.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.118,25.966 ]
+  },
+  "properties": {
+  "name":"Miami-Dade",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":0.5
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.34,26.92 ]
+  },
+  "properties": {
+  "name":"Glades",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.3747,28.1506 ]
+  },
+  "properties": {
+  "name":"Hillsborough",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$90,000",
+  "length":1.06
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.68,27.96 ]
+  },
+  "properties": {
+  "name":"Polk",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$4,000",
+  "length":0.92
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.6609,28.4849 ]
+  },
+  "properties": {
+  "name":"Lake",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":3.71
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.8961,27.6694 ]
+  },
+  "properties": {
+  "name":"Osceola",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":3.08
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.876,28.1035 ]
+  },
+  "properties": {
+  "name":"Osceola",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.15
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.8614,28.5314 ]
+  },
+  "properties": {
+  "name":"Brevard",
+  "date":"6/24/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.17
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.023,27.2714 ]
+  },
+  "properties": {
+  "name":"Highlands",
+  "date":"6/26/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.1282,26.8397 ]
+  },
+  "properties": {
+  "name":"Glades",
+  "date":"7/12/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.3856,27.5215 ]
+  },
+  "properties": {
+  "name":"St. Lucie",
+  "date":"7/17/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$40,000",
+  "length":0.04
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.2232,28.2707 ]
+  },
+  "properties": {
+  "name":"Osceola",
+  "date":"8/27/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$15,000",
+  "length":0.83
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.4956,27.6256 ]
+  },
+  "properties": {
+  "name":"Indian River",
+  "date":"8/27/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$500,000",
+  "length":1.61
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.434,27.9397 ]
+  },
+  "properties": {
+  "name":"Hillsborough",
+  "date":"8/27/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$2,000",
+  "length":0.04
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.1543,30.8762 ]
+  },
+  "properties": {
+  "name":"Jackson",
+  "date":"8/29/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.37
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.5149,30.9929 ]
+  },
+  "properties": {
+  "name":"Holmes",
+  "date":"8/29/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":0.27
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.6247,28.6255 ]
+  },
+  "properties": {
+  "name":"Orange",
+  "date":"12/10/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":4.18
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.832,28.9386 ]
+  },
+  "properties": {
+  "name":"Volusia",
+  "date":"12/10/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$1,000",
+  "length":0.09
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -83.5814,30.1158 ]
+  },
+  "properties": {
+  "name":"Taylor",
+  "date":"12/20/2012",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.0771,26.513 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"2/14/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$1,000",
+  "length":0.03
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.8796,29.6831 ]
+  },
+  "properties": {
+  "name":"Franklin",
+  "date":"2/25/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.4552,27.9373 ]
+  },
+  "properties": {
+  "name":"Hillsborough",
+  "date":"2/26/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$35,000",
+  "length":0.73
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.3474,24.6352 ]
+  },
+  "properties": {
+  "name":"Monroe",
+  "date":"4/5/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$30,000",
+  "length":1.56
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.8935,29.7484 ]
+  },
+  "properties": {
+  "name":"Franklin",
+  "date":"4/14/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$20,000",
+  "length":1.86
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.7388,28.3771 ]
+  },
+  "properties": {
+  "name":"Brevard",
+  "date":"4/14/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.33
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.7507,28.273 ]
+  },
+  "properties": {
+  "name":"Brevard",
+  "date":"4/14/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.55
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.0376,26.5811 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"4/30/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.14
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.0834,26.3754 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"5/2/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.4
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.43,29.79 ]
+  },
+  "properties": {
+  "name":"St. Johns",
+  "date":"5/4/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$500,000",
+  "length":0.91
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.6706,26.6734 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"6/6/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.62
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.4419,26.2184 ]
+  },
+  "properties": {
+  "name":"Broward",
+  "date":"6/6/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":8.02
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.4436,26.3345 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"6/6/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":6.43
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.71,27.736 ]
+  },
+  "properties": {
+  "name":"Pinellas",
+  "date":"6/6/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$20,000",
+  "length":1.87
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.414,27.027 ]
+  },
+  "properties": {
+  "name":"Sarasota",
+  "date":"6/6/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":1.64
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.764,26.752 ]
+  },
+  "properties": {
+  "name":"Lee",
+  "date":"6/6/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.26
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.158,27.334 ]
+  },
+  "properties": {
+  "name":"Manatee",
+  "date":"6/6/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$50,000",
+  "length":1.51
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.345,27.705 ]
+  },
+  "properties": {
+  "name":"Hillsborough",
+  "date":"6/6/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$36,000",
+  "length":2.35
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.7819,30.3774 ]
+  },
+  "properties": {
+  "name":"Suwannee",
+  "date":"6/6/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":3.17
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.6141,27.8671 ]
+  },
+  "properties": {
+  "name":"Pinellas",
+  "date":"6/24/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.91
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.7337,27.719 ]
+  },
+  "properties": {
+  "name":"Pinellas",
+  "date":"6/25/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$2,000",
+  "length":0.14
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.6655,28.0209 ]
+  },
+  "properties": {
+  "name":"Pinellas",
+  "date":"7/1/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":0.06
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -86.4311,30.4659 ]
+  },
+  "properties": {
+  "name":"Okaloosa",
+  "date":"7/5/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":0.29
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.595,27.523 ]
+  },
+  "properties": {
+  "name":"Manatee",
+  "date":"7/9/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":1,
+  "property_damage":"$20,000",
+  "length":0.23
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.4158,27.4229 ]
+  },
+  "properties": {
+  "name":"Manatee",
+  "date":"7/15/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.2
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.0883,26.2358 ]
+  },
+  "properties": {
+  "name":"Broward",
+  "date":"7/19/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":3,
+  "property_damage":"$0",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.55,29.8 ]
+  },
+  "properties": {
+  "name":"St. Johns",
+  "date":"7/21/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.05
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -86.9909,30.3871 ]
+  },
+  "properties": {
+  "name":"Escambia",
+  "date":"7/22/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$4,500",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.1748,26.0874 ]
+  },
+  "properties": {
+  "name":"Broward",
+  "date":"7/23/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -83.18,30.42 ]
+  },
+  "properties": {
+  "name":"Hamilton",
+  "date":"7/31/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.0774,26.399 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"9/16/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$1,000",
+  "length":0.07
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.5168,27.8309 ]
+  },
+  "properties": {
+  "name":"Hillsborough",
+  "date":"10/8/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.25
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.1177,30.175 ]
+  },
+  "properties": {
+  "name":"Liberty",
+  "date":"11/26/2013",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":4.23
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.85,27.865 ]
+  },
+  "properties": {
+  "name":"Pinellas",
+  "date":"3/6/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.05
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.604,27.982 ]
+  },
+  "properties": {
+  "name":"Hillsborough",
+  "date":"3/6/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":1.38
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.713,26.5793 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"3/6/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.25
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.1332,28.3892 ]
+  },
+  "properties": {
+  "name":"Orange",
+  "date":"3/29/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":2.43
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.1433,30.3879 ]
+  },
+  "properties": {
+  "name":"Leon",
+  "date":"4/7/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.51
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.3288,25.7858 ]
+  },
+  "properties": {
+  "name":"Miami-Dade",
+  "date":"5/15/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.27
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.16,26.73 ]
+  },
+  "properties": {
+  "name":"Hendry",
+  "date":"5/30/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.25
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.2657,27.8175 ]
+  },
+  "properties": {
+  "name":"Hillsborough",
+  "date":"5/30/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$50,000",
+  "length":0.45
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0206,26.5491 ]
+  },
+  "properties": {
+  "name":"Lee",
+  "date":"6/27/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$1,000",
+  "length":1.24
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.8433,28.6506 ]
+  },
+  "properties": {
+  "name":"Brevard",
+  "date":"7/6/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$50,000",
+  "length":0.09
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.757,27.2367 ]
+  },
+  "properties": {
+  "name":"Okeechobee",
+  "date":"7/12/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$2,000",
+  "length":0.08
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.992,28.4592 ]
+  },
+  "properties": {
+  "name":"Orange",
+  "date":"7/24/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.25
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.3563,27.52 ]
+  },
+  "properties": {
+  "name":"St. Lucie",
+  "date":"8/15/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.15
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.27,26.42 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"8/16/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.37
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.1792,30.287 ]
+  },
+  "properties": {
+  "name":"Calhoun",
+  "date":"10/13/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":2.58
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.91,29.89 ]
+  },
+  "properties": {
+  "name":"Franklin",
+  "date":"10/13/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.91,30.01 ]
+  },
+  "properties": {
+  "name":"Liberty",
+  "date":"10/13/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.98,30.02 ]
+  },
+  "properties": {
+  "name":"Liberty",
+  "date":"10/13/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":2.07
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -84.91,30.14 ]
+  },
+  "properties": {
+  "name":"Liberty",
+  "date":"10/13/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.36,30.78 ]
+  },
+  "properties": {
+  "name":"Jackson",
+  "date":"10/14/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$20,000",
+  "length":1.73
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.92,30.3 ]
+  },
+  "properties": {
+  "name":"Bay",
+  "date":"11/17/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.01
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85,30.455 ]
+  },
+  "properties": {
+  "name":"Liberty",
+  "date":"11/17/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":9.33
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.0191,30.699 ]
+  },
+  "properties": {
+  "name":"Jackson",
+  "date":"11/17/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":0.5
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.2818,30.1447 ]
+  },
+  "properties": {
+  "name":"Baker",
+  "date":"11/17/2014",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$15,000",
+  "length":0.8
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.2878,26.989 ]
+  },
+  "properties": {
+  "name":"Sarasota",
+  "date":"1/24/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$20,000",
+  "length":2.38
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.2554,27.0079 ]
+  },
+  "properties": {
+  "name":"Charlotte",
+  "date":"1/24/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$10,000",
+  "length":2.51
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.1434,26.3874 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"2/5/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$8,000",
+  "length":1.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -86.03,30.48 ]
+  },
+  "properties": {
+  "name":"Walton",
+  "date":"4/19/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.33
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.95,30.49 ]
+  },
+  "properties": {
+  "name":"Walton",
+  "date":"4/19/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$2,000",
+  "length":0.3
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.6987,26.7453 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"4/23/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.4
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.1041,26.1122 ]
+  },
+  "properties": {
+  "name":"Broward",
+  "date":"5/25/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":4,
+  "property_damage":"$0",
+  "length":0.06
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.75,28.55 ]
+  },
+  "properties": {
+  "name":"Lake",
+  "date":"6/1/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.43,29.78 ]
+  },
+  "properties": {
+  "name":"St. Johns",
+  "date":"6/10/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.78
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.0892,26.9663 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"6/10/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$5,000",
+  "length":0.21
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.9729,26.9177 ]
+  },
+  "properties": {
+  "name":"Charlotte",
+  "date":"6/22/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.57
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.1788,26.6475 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"8/3/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.1
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.146,26.7838 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"8/3/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.04
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -85.2891,29.6922 ]
+  },
+  "properties": {
+  "name":"Gulf",
+  "date":"8/8/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.45
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.6913,26.8025 ]
+  },
+  "properties": {
+  "name":"Palm Beach",
+  "date":"8/13/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.25
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.16,29.98 ]
+  },
+  "properties": {
+  "name":"Bradford",
+  "date":"9/12/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":2.55
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -80.321,26.069 ]
+  },
+  "properties": {
+  "name":"Broward",
+  "date":"9/16/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":2.32
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.823,26.25 ]
+  },
+  "properties": {
+  "name":"Collier",
+  "date":"9/29/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$0",
+  "length":0.06
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.6278,27.5904 ]
+  },
+  "properties": {
+  "name":"Manatee",
+  "date":"10/1/2015",
+  "scale":"F0",
+  "deaths":0,
+  "injuries":0,
+  "property_damage":"$12,000",
+  "length":0.39
+  }
+}
+]
+}
+
+var tornadoFone = {
+   "type": "FeatureCollection",
+   "features": [
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -811.13,25.92 ]
+       },
+       "properties": {
+       "name":"Collier",
+       "date":"10/24/2005",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$40,000",
+       "length":5
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -80.58,28.08 ]
+       },
+       "properties": {
+       "name":"Brevard",
+       "date":"10/24/2005",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$150,000",
+       "length":0.2
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -84.38,30.18 ]
+       },
+       "properties": {
+       "name":"Wakulla",
+       "date":"12/5/2005",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$1,250,000",
+       "length":4
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -87.02,30.85 ]
+       },
+       "properties": {
+       "name":"Santa Rosa",
+       "date":"1/13/2006",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$500,000",
+       "length":0.8
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -81.52,29.43 ]
+       },
+       "properties": {
+       "name":"Putnam",
+       "date":"7/26/2006",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$0",
+       "length":0.5
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.42,29.92 ]
+       },
+       "properties": {
+       "name":"Union",
+       "date":"8/4/2006",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$0",
+       "length":5.5
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -85,29.71 ]
+       },
+       "properties": {
+       "name":"Franklin",
+       "date":"10/27/2006",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$1,000,000",
+       "length":1.6
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -81.25,28.62 ]
+       },
+       "properties": {
+       "name":"Seminole",
+       "date":"11/7/2006",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$1,400,000",
+       "length":2.3
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -80.989,29.0641 ]
+       },
+       "properties": {
+       "name":"Volusia",
+       "date":"2/2/2007",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$6,000,000",
+       "length":3.1
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -84.8,30.4089 ]
+       },
+       "properties": {
+       "name":"Liberty",
+       "date":"2/13/2007",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$15,000",
+       "length":0.25
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -83.43,30.58 ]
+       },
+       "properties": {
+       "name":"Madison",
+       "date":"3/2/2007",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$5,000",
+       "length":3
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -81.24,29.72 ]
+       },
+       "properties": {
+       "name":"St. Johns",
+       "date":"4/15/2007",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$0",
+       "length":0.2
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -80.35,25.57 ]
+       },
+       "properties": {
+       "name":"Miami-Dade",
+       "date":"6/1/2007",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$20,000",
+       "length":3.93
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -81.98,26.55 ]
+       },
+       "properties": {
+       "name":"Lee",
+       "date":"9/16/2007",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":1,
+       "property_damage":"$4,000,000",
+       "length":4.4
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -81.6763,28.8368 ]
+       },
+       "properties": {
+       "name":"Lake",
+       "date":"9/20/2007",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$6,200,000",
+       "length":1.83
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -83.2535,30.05 ]
+       },
+       "properties": {
+       "name":"Lafayette",
+       "date":"9/20/2007",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$2,000",
+       "length":0.25
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -87.2426,30.397 ]
+       },
+       "properties": {
+       "name":"Escambia",
+       "date":"10/18/2007",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":4,
+       "property_damage":"$1,000,000",
+       "length":5.62
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.41,29.73 ]
+       },
+       "properties": {
+       "name":"Alachua",
+       "date":"12/16/2007",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$0",
+       "length":0.75
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.509,28.3129 ]
+       },
+       "properties": {
+       "name":"Pasco",
+       "date":"12/16/2007",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$1,000,000",
+       "length":3.2
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -87.3603,30.7026 ]
+       },
+       "properties": {
+       "name":"Escambia",
+       "date":"2/17/2008",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$750,000",
+       "length":5.08
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -87.243,30.785 ]
+       },
+       "properties": {
+       "name":"Santa Rosa",
+       "date":"2/17/2008",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$200,000",
+       "length":2.07
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -84.7538,30.6066 ]
+       },
+       "properties": {
+       "name":"Gadsden",
+       "date":"2/18/2008",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":1,
+       "property_damage":"$200,000",
+       "length":6.2
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -84.0912,30.4494 ]
+       },
+       "properties": {
+       "name":"Leon",
+       "date":"3/7/2008",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":1,
+       "property_damage":"$750,000",
+       "length":4.6
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -81.8627,26.6795 ]
+       },
+       "properties": {
+       "name":"Lee",
+       "date":"6/8/2008",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":1,
+       "property_damage":"$100,000",
+       "length":5.35
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -80.2844,25.8419 ]
+       },
+       "properties": {
+       "name":"Miami-Dade",
+       "date":"8/14/2008",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$150,000",
+       "length":0.39
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -80.5135,27.8807 ]
+       },
+       "properties": {
+       "name":"Brevard",
+       "date":"8/19/2008",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":2,
+       "property_damage":"$420,000",
+       "length":0.33
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -80.7331,24.8513 ]
+       },
+       "properties": {
+       "name":"Monroe",
+       "date":"9/10/2008",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$120,000",
+       "length":0.54
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -84.0322,30.4443 ]
+       },
+       "properties": {
+       "name":"Jfferson",
+       "date":"10/8/2008",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$10,000",
+       "length":0.77
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -83.3,30.2942 ]
+       },
+       "properties": {
+       "name":"Madison",
+       "date":"3/31/2009",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$0",
+       "length":0.5
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -83.1799,30.3769 ]
+       },
+       "properties": {
+       "name":"Suwannee",
+       "date":"3/31/2009",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$750,000",
+       "length":2.16
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.708,28.1734 ]
+       },
+       "properties": {
+       "name":"Pasco",
+       "date":"4/14/2009",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$240,000",
+       "length":2.23
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.3286,27.3394 ]
+       },
+       "properties": {
+       "name":"Sarasota",
+       "date":"6/23/2009",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$350,000",
+       "length":0.63
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.1998,29.9914 ]
+       },
+       "properties": {
+       "name":"Bradford",
+       "date":"1/21/2010",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$3,500,000",
+       "length":8.7
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -81.559,28.069 ]
+       },
+       "properties": {
+       "name":"Polk",
+       "date":"3/11/2010",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$200,000",
+       "length":1.41
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.0988,28.7367 ]
+       },
+       "properties": {
+       "name":"Sumter",
+       "date":"3/30/2011",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$0",
+       "length":2.19
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.8509,27.8716 ]
+       },
+       "properties": {
+       "name":"Pinellas",
+       "date":"3/31/2011",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$750,000",
+       "length":0.06
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.6935,27.8983 ]
+       },
+       "properties": {
+       "name":"Pinellas",
+       "date":"3/31/2011",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$5,000",
+       "length":0.98
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.5025,27.8766 ]
+       },
+       "properties": {
+       "name":"Hillsborough",
+       "date":"3/31/2011",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$2,270,000",
+       "length":1.6
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.4126,27.9013 ]
+       },
+       "properties": {
+       "name":"Hillsborough",
+       "date":"3/31/2011",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$1,580,000",
+       "length":5.24
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.0226,27.9858 ]
+       },
+       "properties": {
+       "name":"Polk",
+       "date":"3/31/2011",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$500,000",
+       "length":0.83
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -85.18,30.83 ]
+       },
+       "properties": {
+       "name":"Jackson",
+       "date":"4/28/2011",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$500,000",
+       "length":3.03
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -80.25,26.2 ]
+       },
+       "properties": {
+       "name":"Broward",
+       "date":"8/2/2011",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$180,000",
+       "length":2.14
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -87.4295,30.2959 ]
+       },
+       "properties": {
+       "name":"Escambia",
+       "date":"9/4/2011",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$250,000",
+       "length":2.4
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -81.6914,30.0864 ]
+       },
+       "properties": {
+       "name":"Clay",
+       "date":"10/10/2011",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$20,000",
+       "length":0.69
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.028,26.998 ]
+       },
+       "properties": {
+       "name":"Charlotte",
+       "date":"1/27/2012",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$30,000",
+       "length":0.75
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -81.44,27.27 ]
+       },
+       "properties": {
+       "name":"Highlands",
+       "date":"6/24/2012",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$60,000",
+       "length":5.31
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.8437,27.8783 ]
+       },
+       "properties": {
+       "name":"Pinellas",
+       "date":"6/24/2012",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$130,000",
+       "length":0.74
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.715,28.2372 ]
+       },
+       "properties": {
+       "name":"Pasco",
+       "date":"6/24/2012",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$650,000",
+       "length":0.37
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.74,27.7 ]
+       },
+       "properties": {
+       "name":"Pinellas",
+       "date":"6/24/2012",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$150,000",
+       "length":3.02
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.47,28.7 ]
+       },
+       "properties": {
+       "name":"Citrus",
+       "date":"6/24/2012",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$90,000",
+       "length":4.99
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -84.4,30.23 ]
+       },
+       "properties": {
+       "name":"Wakulla",
+       "date":"7/29/2012",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$50,000",
+       "length":2.49
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -80.8675,28.9112 ]
+       },
+       "properties": {
+       "name":"Volusia",
+       "date":"12/10/2012",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":2,
+       "property_damage":"$1,700,000",
+       "length":0.61
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -80.247,26.78 ]
+       },
+       "properties": {
+       "name":"Palm Beach",
+       "date":"6/6/2013",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":1,
+       "property_damage":"$0",
+       "length":2
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -81.4,30.39 ]
+       },
+       "properties": {
+       "name":"Duval",
+       "date":"6/6/2013",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$0",
+       "length":18.89
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -81.5124,30.3513 ]
+       },
+       "properties": {
+       "name":"Duval",
+       "date":"8/1/2013",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$500,000",
+       "length":1.93
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -85.1899,30.0866 ]
+       },
+       "properties": {
+       "name":"Gulf",
+       "date":"11/26/2013",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$200,000",
+       "length":2.92
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -81.31,29.52 ]
+       },
+       "properties": {
+       "name":"Flagler",
+       "date":"12/14/2013",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$5,000,000",
+       "length":9.52
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -85.5282,30.8785 ]
+       },
+       "properties": {
+       "name":"Jackson",
+       "date":"4/30/2014",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$200,000",
+       "length":1.62
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -85.3641,30.8788 ]
+       },
+       "properties": {
+       "name":"Jackson",
+       "date":"4/30/2014",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$3,000",
+       "length":4.61
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.7894,30.1615 ]
+       },
+       "properties": {
+       "name":"Columbia",
+       "date":"5/15/2014",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$0",
+       "length":0.4
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -80.9281,28.9807 ]
+       },
+       "properties": {
+       "name":"Volusia",
+       "date":"7/25/2014",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$723,000",
+       "length":1.69
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -84.872,30.533 ]
+       },
+       "properties": {
+       "name":"Gadsden",
+       "date":"11/17/2014",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$50,000",
+       "length":7.14
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -80.153,26.3839 ]
+       },
+       "properties": {
+       "name":"Palm Beach",
+       "date":"2/5/2015",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$5,000",
+       "length":0.3
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -85.41,30.98 ]
+       },
+       "properties": {
+       "name":"Jackson",
+       "date":"4/19/2015",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$5,000",
+       "length":1.73
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -84.3136,30.4981 ]
+       },
+       "properties": {
+       "name":"Leon",
+       "date":"4/19/2015",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$40,000",
+       "length":4.62
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -83.1807,30.1247 ]
+       },
+       "properties": {
+       "name":"Suwannee",
+       "date":"4/19/2015",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$0",
+       "length":3.63
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -82.2713,29.0609 ]
+       },
+       "properties": {
+       "name":"Marion",
+       "date":"4/20/2015",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$0",
+       "length":1.94
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ -81.6565,30.291 ]
+       },
+       "properties": {
+       "name":"Duval",
+       "date":"4/25/2015",
+       "scale":"F1",
+       "deaths":0,
+       "injuries":0,
+       "property_damage":"$0",
+       "length":3.39
+       }
+     }
+   ]
+   }
+
+
+   var tornadoFtwo = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+             "type": "Point",
+             "coordinates":  [ -80.57,28.03 ]
+          },
+          "properties": {
+          "name":"Brevard",
+          "date":"10/24/2005",
+          "scale":"F2",
+          "deaths":0,
+          "injuries":0,
+          "property_damage":"$150,000",
+          "length":0.3
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+             "type": "Point",
+             "coordinates":  [ -82.12,26.98 ]
+          },
+          "properties": {
+          "name":"Charlotte",
+          "date":"6/21/2006",
+          "scale":"F2",
+          "deaths":0,
+          "injuries":3,
+          "property_damage":"$500,000",
+          "length":3
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+             "type": "Point",
+             "coordinates":  [ -82.43,30.11 ]
+          },
+          "properties": {
+          "name":"Columbia",
+          "date":"12/25/2006",
+          "scale":"F2",
+          "deaths":0,
+          "injuries":1,
+          "property_damage":"$0",
+          "length":2.74
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+             "type": "Point",
+             "coordinates":  [ -82.33,28.31 ]
+          },
+          "properties": {
+          "name":"Pasco",
+          "date":"12/25/2006",
+          "scale":"F2",
+          "deaths":0,
+          "injuries":2,
+          "property_damage":"$3,500,000",
+          "length":0.83
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+             "type": "Point",
+             "coordinates":  [ -81.3,29.03 ]
+          },
+          "properties": {
+          "name":"Volusia",
+          "date":"12/25/2006",
+          "scale":"F2",
+          "deaths":0,
+          "injuries":5,
+          "property_damage":"$2,500,000",
+          "length":2.8
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+             "type": "Point",
+             "coordinates":  [ -82.25,30.53 ]
+          },
+          "properties": {
+          "name":"Baker",
+          "date":"4/15/2007",
+          "scale":"F2",
+          "deaths":0,
+          "injuries":0,
+          "property_damage":"$0",
+          "length":1.5
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+             "type": "Point",
+             "coordinates":  [ -83.5956,29.828 ]
+          },
+          "properties": {
+          "name":"Taylor",
+          "date":"3/7/2008",
+          "scale":"F2",
+          "deaths":0,
+          "injuries":2,
+          "property_damage":"$500,000",
+          "length":0.4
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+             "type": "Point",
+             "coordinates":  [ -82.6458,30.1937 ]
+          },
+          "properties": {
+          "name":"Columbia",
+          "date":"3/7/2008",
+          "scale":"F2",
+          "deaths":1,
+          "injuries":5,
+          "property_damage":"$4,000,000",
+          "length":1.49
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+             "type": "Point",
+             "coordinates":  [ -80.2348,26.6241 ]
+          },
+          "properties": {
+          "name":"Palm Beach",
+          "date":"8/19/2008",
+          "scale":"F2",
+          "deaths":0,
+          "injuries":0,
+          "property_damage":"$1,250,000",
+          "length":2.72
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+             "type": "Point",
+             "coordinates":  [ -80.3292,26.1228 ]
+          },
+          "properties": {
+          "name":"Broward",
+          "date":"10/18/2011",
+          "scale":"F2",
+          "deaths":0,
+          "injuries":0,
+          "property_damage":"$4,000,000",
+          "length":1.11
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+             "type": "Point",
+             "coordinates":  [ -81.68,27.95 ]
+          },
+          "properties": {
+          "name":"Polk",
+          "date":"6/24/2012",
+          "scale":"F2",
+          "deaths":0,
+          "injuries":0,
+          "property_damage":"$390,000",
+          "length":6.22
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+             "type": "Point",
+             "coordinates":  [ -85.0746,30.4025 ]
+          },
+          "properties": {
+          "name":"Calhoun",
+          "date":"11/17/2014",
+          "scale":"F2",
+          "deaths":0,
+          "injuries":2,
+          "property_damage":"$2,000,000",
+          "length":5.74
+          }
+        }
+      ]}
+      var tornadoFthree= {
+         "type": "FeatureCollection",
+         "features": [
+           {
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -82.0457,28.8815 ]
+  },
+  "properties": {
+  "name":"Sumter",
+  "date":"2/2/2007",
+  "scale":"F3",
+  "deaths":0,
+  "injuries":15,
+  "property_damage":"$62,000,000",
+  "length":5.67
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.9494,28.8942 ]
+  },
+  "properties": {
+  "name":"Lake",
+  "date":"2/2/2007",
+  "scale":"F3",
+  "deaths":8,
+  "injuries":10,
+  "property_damage":"$52,000,000",
+  "length":10.5
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.5871,28.9588 ]
+  },
+  "properties": {
+  "name":"Lake",
+  "date":"2/2/2007",
+  "scale":"F3",
+  "deaths":13,
+  "injuries":9,
+  "property_damage":"$46,000,000",
+  "length":12.74
+  }
+},
+{
+  "type": "Feature",
+  "geometry": {
+     "type": "Point",
+     "coordinates":  [ -81.3778,29 ]
+  },
+  "properties": {
+  "name":"Volusia",
+  "date":"2/2/2007",
+  "scale":"F3",
+  "deaths":0,
+  "injuries":42,
+  "property_damage":"$52,000,000",
+  "length":13.29
+  }
+}
+         ]}

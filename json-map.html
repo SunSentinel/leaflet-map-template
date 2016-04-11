@@ -1,0 +1,207 @@
+
+  <head>
+
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <link rel="stylesheet" href="http://interactive.sun-sentinel.com/developers/leaflet/l.geosearch.css"/>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="http://interactive.sun-sentinel.com/developers/leaflet/l.control.geosearch.js"></script>
+  <script src="http://interactive.sun-sentinel.com/developers/leaflet/l.geosearch.provider.google.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.2/mapbox-gl.css" rel='stylesheet' />
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.2/mapbox-gl.js"></script>
+  	<script src="js/tornado-map.geo.json" type="text/javascript"></script>
+
+  </head>
+
+  <style>
+  .bold {font-weight:700;}
+  #map{width:100%; height:800px;}
+  #map h3{font-size:1.5em;}
+  .leaflet-popup-content{width:auto !important;min-width:150px;}
+  .leaflet-container img{max-width:350px !important;}
+  .leaflet-popup-content p{margin:5px 0;font-size:1.2em;line-height:20px;}
+  #button-holder{text-align: center;margin:15px;}
+  </style>
+
+
+<div id="button-holder">
+  <button id="f0">F0</button>
+  <button id="f1">F1</button>
+  <button id="f2">F2</button>
+  <button id="f3">F3</button>
+  <button id="all">Show all</button>
+</div>
+  <div id="map"></div>
+  <script src="http://interactive.sun-sentinel.com/senior-food-deserts/js/leaflet-mapbox-gl.js"></script>
+
+  <script type="text/javascript">
+  if (!mapboxgl.supported()) {
+      var map=L.map('map', { zoomControl: true }).setView([28.079158, -83.187735], 7);
+
+  L.tileLayer('http://{s}.{base}.maps.api.here.com/maptile/2.1/' +
+  'maptile/{mapID}/{variant}/{z}/{x}/{y}/256/png8?' +
+  'app_id={app_id}&app_code={app_code}',  {
+
+  attribution:
+  'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
+  subdomains: '1234',
+  mapID: 'newest',
+  'app_id': '3EqISN3usn9ZPjG1Ewcl',
+  'app_code': '1fvzZx4VqUt3I98HFafEMw',
+  base: 'base',
+  variant: 'normal.day.transit',
+  minZoom: 5,
+  maxZoom: 16
+  }).addTo(map);
+
+  } else {
+
+  var map = L.map('map').setView([28.079158, -83.187735], 7);
+          map.options.minZoom = 5;
+          map.options.maxZoom = 16;
+
+  var gl = L.mapboxGL({
+      accessToken: 'pk.eyJ1Ijoic3NkZXZlbG9wZXJzIiwiYSI6ImNpaHc2OXN3dDAyaHd1MW0xaDB2MTVuc3AifQ.1cG9uUa0Wcmm0bEbR2Jjiw',
+      style: 'mapbox://styles/ssdevelopers/cij4rhw8b00169hkl1iw97taw'
+  }).addTo(map);
+  }
+
+  function getURLParameter(name) {
+          return decodeURI(
+              (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,])[1]
+          );
+      }
+
+  var regionParameter = getURLParameter('region');
+  var region = (regionParameter === 'undefined') ? '' : regionParameter;
+
+  new L.Control.GeoSearch({
+              provider: new L.GeoSearch.Provider.Google({
+                region: region
+              })
+          }).addTo(map);
+
+
+
+		function onEachFeature(feature, layer) {
+			var popupContent = "<h4>Tornado details</h4> " + "<p>County: " +
+					feature.properties.name +"</p>"+ "<p>Date: " + feature.properties.date +"</p>"+ "<p>Length: " + feature.properties.length +" miles</p>"+ "<p>Deaths: " +
+    					feature.properties.deaths +"</p>"+ "<p>Injuries: " +
+        					feature.properties.injuries +"</p>"+ "<p>Property damages: " +
+            					feature.properties.property_damage +"</p>";
+
+			if (feature.properties && feature.properties.popupContent) {
+				popupContent += feature.properties.popupContent;
+			}
+
+			layer.bindPopup(popupContent);
+		}
+
+
+var tornadoZero =	L.geoJson(tornadoFzero, {
+	style: function (feature) {
+        return feature.properties && feature.properties.style;
+			},
+
+			onEachFeature: onEachFeature,
+
+			pointToLayer: function (feature, latlng) {
+				return L.circleMarker(latlng, {
+					radius: 7,
+					fillColor: "#EEDA8B",
+					color: "#fff",
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8
+				});
+			}
+
+		}).addTo(map);
+
+var tornadoOne =  L.geoJson(tornadoFone, {
+  style: function (feature) {
+        	return feature.properties && feature.properties.style;
+      },
+      onEachFeature: onEachFeature,
+      pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, {
+          radius: 7,
+          fillColor: "#ff7800",
+          color: "#fff",
+          weight: 1,
+          opacity: 1,
+          fillOpacity: 0.8
+        });
+      }
+    }).addTo(map);
+
+  var tornadoTwo =  L.geoJson(tornadoFtwo, {
+    style: function (feature) {
+            return feature.properties && feature.properties.style;
+        },
+        onEachFeature: onEachFeature,
+        pointToLayer: function (feature, latlng) {
+          return L.circleMarker(latlng, {
+            radius: 7,
+            fillColor: "#E03333",
+            color: "#fff",
+            weight: 1,
+            opacity: 1,
+            fillOpacity: 0.8
+          });
+        }
+      }).addTo(map);
+
+  var tornadoThree = L.geoJson(tornadoFthree, {
+          style: function (feature) {
+                  return feature.properties && feature.properties.style;
+              },
+              onEachFeature: onEachFeature,
+              pointToLayer: function (feature, latlng) {
+                return L.circleMarker(latlng, {
+                  radius: 7,
+                  fillColor: "#820000",
+                  color: "#fff",
+                  weight: 1,
+                  opacity: 1,
+                  fillOpacity: 0.8
+                });
+              }
+            }).addTo(map);
+	</script>
+
+<script>
+$(document).ready(function(){
+  event.preventDefault();
+  $("#f0").on('click', function(){
+    map.addLayer(tornadoZero);
+    map.removeLayer(tornadoOne);
+    map.removeLayer(tornadoTwo);
+    map.removeLayer(tornadoThree);
+  });
+  $("#f1").on('click', function(){
+    map.removeLayer(tornadoZero);
+    map.removeLayer(tornadoTwo);
+    map.removeLayer(tornadoThree);
+    map.addLayer(tornadoOne);
+  });
+  $("#f2").on('click', function(){
+    map.addLayer(tornadoTwo);
+    map.removeLayer(tornadoOne);
+    map.removeLayer(tornadoZero);
+    map.removeLayer(tornadoThree);
+  });
+  $("#f3").on('click', function(){
+    map.addLayer(tornadoThree);
+    map.removeLayer(tornadoOne);
+    map.removeLayer(tornadoTwo);
+    map.removeLayer(tornadoZero);
+  });
+  $("#all").on('click', function(){
+    map.addLayer(tornadoThree);
+    map.addLayer(tornadoOne);
+    map.addLayer(tornadoTwo);
+    map.addLayer(tornadoZero);
+  })
+});
+</script>
